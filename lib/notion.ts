@@ -38,7 +38,7 @@ export async function createInquiry(
       Name: {
         title: [{ type: "text", text: { content: titleFor(r) } }],
       },
-      Status: { status: { name: r.status } },
+      Status: { select: { name: r.status } },
       "Submitter Email": { email: r.email },
       Location: { rich_text: [{ type: "text", text: { content: r.location } }] },
       Method: { select: { name: r.method === "ship" ? "Ship" : "Meetup" } },
@@ -98,7 +98,7 @@ export async function queryShipCandidates(): Promise<CandidateRow[]> {
     database_id: dbId(),
     filter: {
       and: [
-        { property: "Status", status: { equals: "Offered — Ship" } },
+        { property: "Status", select: { equals: "Offered — Ship" } },
         { property: "Pause Follow-Ups", checkbox: { equals: false } },
       ],
     },
@@ -120,7 +120,7 @@ export async function queryShipCandidates(): Promise<CandidateRow[]> {
         (p?.multi_select ?? []).map((o: { name: string }) => o.name);
       const readNum = (p: any): number => p?.number ?? 0;
       const readSelect = (p: any): string => p?.select?.name ?? "";
-      const readStatus = (p: any): string => p?.status?.name ?? "";
+      const readStatus = (p: any): string => p?.select?.name ?? p?.status?.name ?? "";
 
       const method = readSelect(props["Method"]).toLowerCase();
 
@@ -164,7 +164,7 @@ export async function setStatus(
   await client().pages.update({
     page_id: pageId,
     properties: {
-      Status: { status: { name: status } },
+      Status: { select: { name: status } },
     },
   });
 }
