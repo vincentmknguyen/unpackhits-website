@@ -2,6 +2,7 @@
   "name": "unpackhits-website",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Unpack Hits — Pokemon bulk card buyer. Static site with serverless form pipeline.",
   "engines": {
     "node": ">=20"
