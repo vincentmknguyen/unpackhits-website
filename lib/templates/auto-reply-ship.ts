@@ -27,22 +27,24 @@ BREAKDOWN
 ${breakdown}
 
 ───────────────────────────────
-PACKING — DO IT RIGHT
+PACKING
 ───────────────────────────────
 
 Sleeves cause delays or rejections. Don't sleeve. Instead:
 
   • Team bag anything better than Commons/Uncommons and
     Reverse/Holos (so V, ex, GX, VSTAR, VMAX, Art Rares,
-    Full Art Trainers, Jumbos).
+    Full Art Trainers).
   • Exception: high-end singles or graded cards — sleeves
     and toploaders are fine for those specifically.
-  • The rest goes loose in the box.
   • Add VOID FILL — packing paper, crumpled newspaper, or
     bubble wrap — so cards don't shift in transit.
+  • Tuck a slip of paper inside the box with your name and
+    the email you used to submit, so I can match your box to
+    your offer if the shipping label gets damaged.
 
 ───────────────────────────────
-BOX + LABEL
+RECOMMENDED BOX + LABEL
 ───────────────────────────────
 
 Box: USPS Priority Mail Large Flat Rate Box (fits 6,000–7,000
@@ -57,8 +59,8 @@ SHIP TO
 ───────────────────────────────
 
   Unpack Hits
-  PO BOX 525
-  Union City, CA 94587
+  3126 Glen Alto Ct
+  San Jose, CA 95148
 
 ───────────────────────────────
 WHAT I NEED BACK FROM YOU
@@ -74,7 +76,6 @@ HOW YOU GET PAID
 
 Within 5 business days of your package arriving, I verify
 the cards and send PayPal for the full payout (cards offer${r.shipReimbursement > 0 ? " + shipping reimbursement" : ""}).
-No net-30, no store credit.
 
 Offer is good for 7 days.
 

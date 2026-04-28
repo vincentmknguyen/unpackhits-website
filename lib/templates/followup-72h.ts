@@ -20,8 +20,8 @@ Worth remembering:
 
 Ship to:
   Unpack Hits
-  PO BOX 525
-  Union City, CA 94587
+  3126 Glen Alto Ct
+  San Jose, CA 95148
 
 Reply with tracking + PayPal email when ready.
 
