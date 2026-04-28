@@ -59,8 +59,8 @@ SHIP TO
 ───────────────────────────────
 
   Unpack Hits
-  3126 Glen Alto Ct
-  San Jose, CA 95148
+  PO BOX 525
+  Union City, CA 94587
 
 ───────────────────────────────
 WHAT I NEED BACK FROM YOU

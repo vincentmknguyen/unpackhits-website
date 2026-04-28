@@ -15,8 +15,8 @@ or spam.
 
 Address:
   Unpack Hits
-  3126 Glen Alto Ct
-  San Jose, CA 95148
+  PO BOX 525
+  Union City, CA 94587
 
 Reply with tracking + PayPal email when it's out. Offer is
 locked in for another 6 days.
