@@ -4,12 +4,12 @@ import {
   recordFollowUpSent,
   setStatus,
   type CandidateRow,
-} from "../lib/notion";
-import { sendEmail } from "../lib/email";
-import { followup24h } from "../lib/templates/followup-24h";
-import { followup72h } from "../lib/templates/followup-72h";
-import { followup7d } from "../lib/templates/followup-7d";
-import type { FollowUpStage, InquiryRecord } from "../lib/types";
+} from "../lib/notion.js";
+import { sendEmail } from "../lib/email.js";
+import { followup24h } from "../lib/templates/followup-24h.js";
+import { followup72h } from "../lib/templates/followup-72h.js";
+import { followup7d } from "../lib/templates/followup-7d.js";
+import type { FollowUpStage, InquiryRecord } from "../lib/types.js";
 
 const HOUR_MS = 60 * 60 * 1000;
 const THRESHOLDS: Record<FollowUpStage, number> = {

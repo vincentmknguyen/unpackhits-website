@@ -1,5 +1,5 @@
-import type { InquiryRecord } from "../types";
-import { firstName, formatBreakdown, formatUSD } from "../format";
+import type { InquiryRecord } from "../types.js";
+import { firstName, formatBreakdown, formatUSD } from "../format.js";
 
 export function autoReplyMeetup(r: InquiryRecord): { subject: string; text: string } {
   const fn = firstName(r.name);

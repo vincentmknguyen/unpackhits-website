@@ -1,4 +1,4 @@
-import { CARDS_PER_BOX } from "./rates";
+import { CARDS_PER_BOX } from "./rates.js";
 
 export function formatUSD(n: number): string {
   return (

@@ -1,5 +1,5 @@
 import { Client } from "@notionhq/client";
-import type { FollowUpStage, InquiryRecord, InquiryStatus } from "./types";
+import type { FollowUpStage, InquiryRecord, InquiryStatus } from "./types.js";
 
 const DB_ID_ENV = "NOTION_DATABASE_ID";
 const TOKEN_ENV = "NOTION_TOKEN";

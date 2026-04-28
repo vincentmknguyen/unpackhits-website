@@ -1,5 +1,5 @@
-import type { InquiryRecord } from "../types";
-import { firstName, formatUSD } from "../format";
+import type { InquiryRecord } from "../types.js";
+import { firstName, formatUSD } from "../format.js";
 
 export function followup7d(r: InquiryRecord): { subject: string; text: string } {
   const fn = firstName(r.name);

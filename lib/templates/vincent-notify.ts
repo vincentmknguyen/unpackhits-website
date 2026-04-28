@@ -1,5 +1,5 @@
-import type { InquiryRecord } from "../types";
-import { formatBreakdown, formatUSD, formatNumber } from "../format";
+import type { InquiryRecord } from "../types.js";
+import { formatBreakdown, formatUSD, formatNumber } from "../format.js";
 
 export function vincentNotify(
   r: InquiryRecord,

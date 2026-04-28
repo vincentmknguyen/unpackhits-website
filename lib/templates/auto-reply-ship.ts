@@ -1,5 +1,5 @@
-import type { InquiryRecord } from "../types";
-import { firstName, formatBreakdown, formatUSD, formatBoxes } from "../format";
+import type { InquiryRecord } from "../types.js";
+import { firstName, formatBreakdown, formatUSD, formatBoxes } from "../format.js";
 
 export function autoReplyShip(r: InquiryRecord): { subject: string; text: string } {
   const fn = firstName(r.name);

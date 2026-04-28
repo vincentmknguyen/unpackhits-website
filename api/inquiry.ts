@@ -1,11 +1,11 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { RATES, MIN_OFFER, calculateOffer, type RateKey } from "../lib/rates";
-import type { InquiryRecord, InquiryStatus, Method } from "../lib/types";
-import { createInquiry } from "../lib/notion";
-import { sendEmail } from "../lib/email";
-import { autoReplyShip } from "../lib/templates/auto-reply-ship";
-import { autoReplyMeetup } from "../lib/templates/auto-reply-meetup";
-import { vincentNotify } from "../lib/templates/vincent-notify";
+import { RATES, MIN_OFFER, calculateOffer, type RateKey } from "../lib/rates.js";
+import type { InquiryRecord, InquiryStatus, Method } from "../lib/types.js";
+import { createInquiry } from "../lib/notion.js";
+import { sendEmail } from "../lib/email.js";
+import { autoReplyShip } from "../lib/templates/auto-reply-ship.js";
+import { autoReplyMeetup } from "../lib/templates/auto-reply-meetup.js";
+import { vincentNotify } from "../lib/templates/vincent-notify.js";
 
 const RATE_KEYS = Object.keys(RATES) as RateKey[];
 

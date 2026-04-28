@@ -1,4 +1,4 @@
-import type { Quantities } from "./rates";
+import type { Quantities } from "./rates.js";
 
 export type Method = "ship" | "meetup";
 
