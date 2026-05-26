@@ -15,8 +15,9 @@ or spam.
 
 Address:
   Unpack Hits
-  PO BOX 525
-  Union City, CA 94587
+  9698 Elk Grove Blvd
+  Ste 1-319
+  Elk Grove, CA 95624-3300
 
 Reply with tracking + PayPal email when it's out. Offer is
 locked in for another 6 days.
